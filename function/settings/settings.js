@@ -31,30 +31,30 @@ global.info = {
 
 // Thumbnail 
 global.media = {
- ppKosong : 'https://i.ibb.co/3Fh9V6p/avatar-contact.png',
- didyou : 'https://telegra.ph/file/e40219cc8d472025f18b6.jpg',
- rulesBot : 'https://telegra.ph/file/7cd8985216ffd3c376238.jpg',
- thumbnail : 'https://cdn.hisoka.net/f157ca91e615477f7ff8c138e2d6a183.jpeg',
- thumb : 'https://cdn.hisoka.net/a85121e3c86607f356102d5390423ce8.jpeg',
- logo : 'https://cdn.hisoka.net/51355cec238535562b1fe2f71e7cbcb2.jpeg',
- unReg : 'https://telegra.ph/file/ef02d1fdd59082d05f08d.jpg',
- registrasi : 'https://cdn.hisoka.net/51355cec238535562b1fe2f71e7cbcb2.jpeg',
- confess : 'https://telegra.ph/file/bfef7e33bc60dd2608ac6.jpg',
- access : 'https://telegra.ph/file/5c35d4a180b9074a9f11b.jpg',
- tqto : 'https://telegra.ph/file/221aba241e6ededad0fd5.jpg',
- spotify : 'https://telegra.ph/file/d888041549c7444f1212b.jpg',
- weather : 'https://telegra.ph/file/5b35ba4babe5e31595516.jpg',
- gempaUrl : 'https://telegra.ph/file/03e70dd45a9dc628d84c9.jpg',
- akses : 'https://telegra.ph/file/6c7b9ffbdfb0096e1db3e.jpg',
- wel : 'https://telegra.ph/file/9dbc9c39084df8691ebdd.mp4',
- good : 'https://telegra.ph/file/1c05b8c019fa525567d01.mp4',
+ ppKosong : 'https://qu.ax/sAMxM.jpeg',
+ didyou : 'https://qu.ax/sAMxM.jpeg',
+ rulesBot : 'https://qu.ax/sAMxM.jpeg',
+ thumbnail : 'https://qu.ax/sAMxM.jpeg',
+ thumb : 'https://qu.ax/sAMxM.jpeg',
+ logo : 'https://qu.ax/sAMxM.jpeg',
+ unReg : 'https://qu.ax/sAMxM.jpeg',
+ registrasi : 'https://qu.ax/sAMxM.jpeg',
+ confess : 'https://qu.ax/sAMxM.jpeg',
+ access : 'https://qu.ax/sAMxM.jpeg',
+ tqto : 'https://qu.ax/sAMxM.jpeg',
+ spotify : 'https://qu.ax/sAMxM.jpeg',
+ weather : 'https://qu.ax/sAMxM.jpeg',
+ gempaUrl : 'https://qu.ax/sAMxM.jpeg',
+ akses : 'https://qu.ax/sAMxM.jpeg',
+ wel : 'https://qu.ax/sAMxM.jpeg',
+ good : 'https://qu.ax/sAMxM.jpeg',
  sound: 'https://pomf2.lain.la/f/ymca9u8.opus'
 }
 // Social media
 global.url = {
- sig: 'https://instagram.com/noureddine_ouafy',
- sgh:  'https://instagram.com/noureddine_ouafy',
- sgc: 'https://whatsapp.com/channel/0029VaX4b6J7DAWqt3Hhu01A'
+ sig: 'https://instagram.com/ahmed_aligue',
+ sgh:  'https://instagram.com/ahmed_aligue',
+ sgc: 'ahmed_aligue'
 }
 // Donasi
 global.payment = {
