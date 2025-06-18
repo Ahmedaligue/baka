@@ -21,7 +21,7 @@ export async function schedule(db, conn) {
         }
 
         for (let gc of grup) {
-            await conn.reply(gc, '```The system has reset the limit of all users who have a value below 7```', null);
+            await conn.reply(gc, '```تم استعادة جميع limit الخاصة بكم \n>اتمنى ان تستمتيعوا بالبوت```', null);
             await delay(5000)
         }
     }, {
