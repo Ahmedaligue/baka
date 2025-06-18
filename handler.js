@@ -1222,9 +1222,7 @@ ${global.namebot}
                 else
                     m.exp += xp
                 if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 7) {
-                    this.reply(m.chat, `Your limit has reached the limit\n\n•••••••••••••••••••\n\nآسفة لقد وصلتَ للحد الأدنى 🙂 
-
-البوت مبرمج على أن يُلَبِّي لك *10* طلبات في اليوم ، ثم يتوجب عليك أنذاك أن تنتظر ل 24 ساعة حتى تستفيذ من *10* أخريات .. وهكذا ... لذا دائما اشتغل بالبوت عندما تحتاجه فقط حتى لا تخسر الفرص ، \n\n*أراك غــــذا ان شــاء اللــــــــه*`, m)
+                    this.reply(m.chat, `[اشعاااااااار]\n\n لقد نفدت عدد المحولات التي كان بامكانك استخدامها يا ذكي\n\n*BAKA BOT*`, m)
                     continue // Limit habis
                 }
                 if (plugin.level > _user.level) {
@@ -1388,9 +1386,9 @@ export async function participantsUpdate({ id, participants, action }) {
                             
 const canWel = await new canvafy.WelcomeLeave()
     .setAvatar(pp)
-    .setBackground("image", "https://telegra.ph/file/39ef0462ab2a3cc5ebfcc.jpg")
+    .setBackground("image", "https://qu.ax/sAMxM.jpeg")
     .setTitle("Welcome")
-    .setDescription(`Welcome to the Group ${groupMetadata.subject}`)
+    .setDescription(`مرحبا بك في  ${groupMetadata.subject} ياصديقي / تي`)
     .setBorder("#2a2e35")
     .setAvatarBorder("#2a2e35")
     .setOverlayOpacity(0.3)
@@ -1403,9 +1401,9 @@ if (templ.gcImg) {
         contextInfo: {
         mentionedJid: [user],
             externalAdReply: {
-                title: 'W E L C O M E',
+                title: 'مرحبا بك',
                 body: '',
-                thumbnail: xnxx,
+                thumbnail: 'https://qu.ax/sAMxM.jpeg',
                 sourceUrl: sgc,
                 mediaType: 1,
                 renderLargerThumbnail: true
@@ -1442,7 +1440,7 @@ if (templ.gcImg) {
             externalAdReply: {
                 containsAutoReply: true,
                 mediaType: 1,
-                mediaUrl: 'https://telegra.ph/file/74abb87ac6082571db546.jpg',
+                mediaUrl: 'https://qu.ax/sAMxM.jpeg',
                 renderLargerThumbnail: true,
                 showAdAttribution: true,
                 sourceUrl: null,
@@ -1479,9 +1477,9 @@ if (templ.gcImg) {
                                
 const canLea = await new canvafy.WelcomeLeave()
     .setAvatar(pp)
-    .setBackground("image", "https://telegra.ph/file/39ef0462ab2a3cc5ebfcc.jpg")
-    .setTitle("Goodbye")
-    .setDescription("goodbye Friend!")
+    .setBackground("image", "https://qu.ax/sAMxM.jpeg")
+    .setTitle("مغادرة")
+    .setDescription("الى اللقاء يا صديق")
     .setBorder("#2a2e35")
     .setAvatarBorder("#2a2e35")
     .setOverlayOpacity(0.3)
@@ -1494,9 +1492,9 @@ if (templ.gcImg) {
         contextInfo: {
         mentionedJid: [user],
             externalAdReply: {
-                title: 'G O O D B Y E',
+                title: 'وداااع',
                 body: '',
-                thumbnail: xnxx,
+                thumbnail: 'https://qu.ax/sAMxM.jpeg',
                 sourceUrl: sgc,
                 mediaType: 1,
                 renderLargerThumbnail: true
@@ -1524,7 +1522,7 @@ if (templ.gcImg) {
 
     this.sendMessage(id, {
         document: fs.readFileSync("./package.json"),
-        fileName: 'G O O D B Y E',
+        fileName: 'الودااااااع',
         fileLength: 100000000000,
         pageCount: "1000",
         caption: '',
@@ -1533,13 +1531,13 @@ if (templ.gcImg) {
             externalAdReply: {
                 containsAutoReply: true,
                 mediaType: 1,
-                mediaUrl: 'https://telegra.ph/file/74abb87ac6082571db546.jpg',
+                mediaUrl: 'https://qu.ax/sAMxM.jpeg',
                 renderLargerThumbnail: true,
                 showAdAttribution: true,
                 sourceUrl: null,
                 thumbnailUrl: pp,
-                title: 'G O O D B Y E',
-                body: ` Member to- ${member}`,
+                title: 'تهلاااا',
+                body: ` الرقم- ${member}`,
             },
         },
     });
@@ -1557,7 +1555,7 @@ async function getMessage(key){
             return msg?.message
         }
         return {
-            conversation: "My name is Silana Ai"
+            conversation: "baka bot by AHMED ALIGUE"
         }
     }
 async function appenTextMessage(text, chatUpdate) {
@@ -1658,9 +1656,9 @@ let msg = {
         admin: 'الميزة ستشتغل معك فقط اذا كنت أنت و البوت أدمينين في المجموعة ',
         restrict: 'لم يتم تشغيل التقييد لهذه الدردشة',
         adminonly: 'تم تعطيل الخاصية للأعضاء',
-        premiumonly: `📢 لا يمكنك الوصول إلى الميزة ❗\nقم بشراء الإصدار المميز للوصول إليها عبر جهاز الكمبيوتر.\ncontact the owner below\nwa.me/${global.info.nomerown}`,
+        premiumonly: `📢 لا يمكنك الوصول إلى الميزة ❗\nقم بشراء الإصدار المميز للوصول إليها عبر جهاز الكمبيوتر.\n\nwa.me/${global.info.nomerown}`,
         groups: 'الميزة حاليًا نشطة للمجموعات فقط.',
-        gconly: `📢 لا يمكنك الوصول إلى ميزة ❗\nانضم إلى مجموعة Silana Bot لتتمكن من الوصول\n\n> ${global.url.sgc}`,
+        gconly: `📢 لا يمكنك الوصول إلى ميزة ❗\nانضم إلى مجموعة baka bot لتتمكن من الوصول\n\n> ${global.url.sgc}`,
         game: 'الميزة *اللعبة* لم يتم تشغيلها لهذه الدردشة',
         rpg: 'الميزة *Rpg* لم يتم تشغيلها لهذه الدردشة',
         rowner: 'ميزة خاصة للمالك الحقيقي، *المستخدمون* لا يمكنهم الوصول إليها :!',
@@ -1672,7 +1670,7 @@ let msg = {
       text: msg, 
       contextInfo: {
       externalAdReply: {
-      title: '✖️ Y O U R  N O T  A C C E S S',
+      title: '✖️',
       body: 'Who are you?',
       thumbnailUrl: akses,
       sourceUrl: sgc,
@@ -1683,7 +1681,7 @@ let msg = {
     let daftar = {
   unreg: `\`أنت لم تسجل بعد في قاعدة البيانات. سجل فورا عن طريق الكتابة:\`
   
-- /daftar name. age\n\n قبل ان تضغط على زر تسجيل الدخول رجاء تأكد أنك مشترك في قناتي على الواتساب \n\n https://whatsapp.com/channel/0029VaX4b6J7DAWqt3Hhu01A`}[type]
+- .سجل اسمك.عمرك\n\n> BAKA BOT`}[type]
   
   if (daftar) return conn.sendUrlImageButton(m.chat, daftar, [{name: "quick_reply", buttonParamsJson: `{"display_text": "تسجيل الدخول", "id": "@verify"}`}], wm, registrasi, fkon)
         }
