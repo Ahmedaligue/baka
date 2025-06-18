@@ -8,15 +8,15 @@ let handler = (m) => m;
 handler.all = async function (m) {
   let name = await conn.getName(m.sender);
   let pp =
-    "https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg";
-  let fotonyu = "https://telegra.ph/file/e1047817d256d9e372144.jpg";
+    "https://qu.ax/sAMxM.jpeg";
+  let fotonyu = "https://qu.ax/sAMxM.jpeg";
   try {
     //pp = await this.profilePictureUrl(m.sender, "image");
     //Error profilePictureUrl No work again
   } catch (e) {
     console.error(e);
   } finally {
-    global.emror = "https://telegra.ph/file/a6294049a1863a69154cf.jpg";
+    global.emror = "https://qu.ax/sAMxM.jpeg";
 
     global.doc = pickRandom([
       "application/vnd.ms-excel",
@@ -41,8 +41,8 @@ handler.all = async function (m) {
     global.kontak2 = [
       [
         owner[0],
-        await conn.getName(owner[0] + "212717457920@s.whatsapp.net"),
-        "SILANA AI",
+        await conn.getName(owner[0] + "212625457341@s.whatsapp.net"),
+        "BAKA BOT",
         "https://whatsapp.com",
         true,
       ],
@@ -88,9 +88,9 @@ handler.all = async function (m) {
         forwardingScore: 1,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363285847738492@newsletter",
+          newsletterJid: "1203632858477392@newsletter",
           serverMessageId: 103,
-          newsletterName: ` SILANA LITE AI    |   هيا نحو النجاح 🧑‍🏫 `,
+          newsletterName: `BAKAAAAANERUUUU`,
         },
         externalAdReply: {
           showAdAttribution: true,
@@ -98,7 +98,7 @@ handler.all = async function (m) {
           body: ucapan(),
           previewType: "VIDEO",
           thumbnailUrl: logo,
-          sourceUrl: "https://instagram.com/noureddine_ouafy",
+          sourceUrl: "https://instagram.com/ahmed_aligue",
         },
       },
     };
@@ -136,18 +136,18 @@ function date() {
 
 function ucapan() {
   const time = moment.tz("Africa/Casablanca").format("HH");
-  let res = "اضغط هنا لمتابعة صاحب البوت  ";
+  let res = "baka";
   if (time >= 4) {
-    res = "اضغط هنا لمتابعة صاحب البوت  ";
+    res = "baka";
   }
   if (time > 10) {
-    res = "اضغط هنا لمتابعة صاحب البوت  ";
+    res = "baka";
   }
   if (time >= 15) {
-    res = "اضغط هنا لمتابعة صاحب البوت  ";
+    res = "baka";
   }
   if (time >= 18) {
-    res = "اضغط هنا لمتابعة صاحب البوت  ";
+    res = "baka";
   }
   return res;
 }
